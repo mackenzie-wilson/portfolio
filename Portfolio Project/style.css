@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-align: left;
+    cursor: pointer;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    padding: 1px;
+}
+
+
+
+div h1 {
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+
+li {
+    text-align: center;
+    margin-top: 10px;
+    list-style-type: none;
+    color: #FFF;
+    justify-content: center;
+}
+
+section {
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: #606060;
+    color: #FFF;
+}
+
+
+#Philosophy {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./deathofseneca2.png');
+}
+
+#Econ {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./tulipmania.jpeg');
+    ;
+}
+
+#Business {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./traders.jpeg');
+}
+
+#Biography {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./idesofmarch.jpeg');
+}
+
+#Psychology {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./psychology3.jpeg');
+}
+
+#Science {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./alchemist.jpeg');
+}
+
+#History {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpeg');
+}
+
+#name {
+    text-align: left;
+}
+
+.GenreTitle {
+    text-align: center;
+    color: #FFF;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.nav-item {
+    text-align: left;
+}
+
+.about-me-section {
+    text-align: left;
+}
