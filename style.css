@@ -1,0 +1,155 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-align: left;
+    cursor: pointer;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    padding: 1px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div h1 {
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+
+li {
+    text-align: center;
+    margin-top: 10px;
+    list-style-type: none;
+    color: #FFF;
+}
+
+section {
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: #606060;
+    color: #FFF;
+}
+
+
+#Philosophy {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./deathofseneca2.png');
+}
+
+#Econ {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./tulipmania.jpeg');
+    ;
+}
+
+#Business {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./traders.jpeg');
+}
+
+#Biography {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./idesofmarch.jpeg');
+}
+
+#Psychology {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./psychology3.jpeg');
+}
+
+#Science {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./alchemist.jpeg');
+}
+
+#History {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpeg');
+}
+
+#name {
+    text-align: left;
+}
+
+.GenreTitle {
+    text-align: center;
+    color: #FFF;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.nav-item {
+    text-align: left;
+}
+
+.about-me-section {
+    text-align: left;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    position: sticky;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+    padding: 0 18px;
+    display: none;
+    overflow: scroll;
+    text-align: center;
+    margin-top: 10px;
+    list-style-type: none;
+    color: #FFF;
+    justify-content: center;
+    vertical-align: -webkit-baseline-middle;
+}
